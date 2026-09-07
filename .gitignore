@@ -1,0 +1,10 @@
+data/raw/*.xml
+data/db.sqlite3
+data/logs/*.log
+data/logs/dead_letter/*
+!data/logs/dead_letter/.gitkeep
+!web/assets/.gitkeep
+__pycache__/
+*.pyc
+.env
+.DS_Store
