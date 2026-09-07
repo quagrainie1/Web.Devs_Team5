@@ -20,8 +20,8 @@ Exposes aggregated data to a static frontend dashboard for visualization
 3. Odusanwo Michelle
 
 ### Architecture
-![Architecture Diagram](<img width="512" height="749" alt="Architectural Diagram" src="https://github.com/user-attachments/assets/8153b5f6-5051-40be-adb6-743e1e539de2" />
-)
+### Architecture
+<img width="512" height="749" alt="Architectural Diagram" src="https://github.com/user-attachments/assets/8153b5f6-5051-40be-adb6-743e1e539de2" />
 
 ### Scrum Board
 Coming soon
