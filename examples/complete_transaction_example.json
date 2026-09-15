@@ -1,0 +1,34 @@
+{
+  "transaction_id": 1,
+  "transaction_reference": "TXN-2026-00001",
+  "amount": 30000.00,
+  "currency": "RWF",
+  "transaction_date": "2026-09-10",
+  "balance_after": 87450.00,
+  "status": "completed",
+  "sender": {
+    "user_id": 1,
+    "first_name": "Michelle",
+    "last_name": "Odusanwo",
+    "phone_number": "0795604022",
+    "account_type": "personal"
+  },
+  "receiver": {
+  },
+  "categories": [
+    {
+      "category_id": 1,
+      "category_name": "Incoming Money",
+      "category_type": "credit"
+    }
+  ],
+  "processing_logs": [
+    {
+      "log_id": 1,
+      "process_stage": "xml_parsing",
+      "status": "success",
+      "log_timestamp": "2026-09-10 15:22:25",
+      "message": "SMS record extracted from XML and fields mapped successfully."
+    }
+  ]
+}

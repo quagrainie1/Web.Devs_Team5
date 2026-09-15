@@ -1,0 +1,13 @@
+{
+  "entity": "Transaction_Category",
+  "source_table": "transaction_category",
+  "record_count": 5,
+  "records": [
+    {
+      "category_id": 1,
+      "category_name": "Incoming Money",
+      "category_type": "credit",
+      "description": "Money recieved by a user from another user."
+    }
+  ]
+}

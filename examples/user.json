@@ -1,0 +1,16 @@
+{
+  "entity": "User",
+  "source_table": "user",
+  "record_count": 5,
+  "records": [
+    {
+      "user_id": 1,
+      "first_name": "Michelle",
+      "last_name": "Odusanwo",
+      "national_id": "1234509876",
+      "phone_number": "0795604022",
+      "account_type": "personal",
+      "registration_date": "2026-09-10"
+    }
+  ]
+}

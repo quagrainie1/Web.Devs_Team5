@@ -1,0 +1,62 @@
+{
+  "entity": "Transaction",
+  "source_table": "transaction",
+  "record_count": 5,
+  "records": [
+    {
+      "transaction_id": 1,
+      "transaction_reference": "TXN-2026-00001",
+      "sender_id": 1,
+      "receiver_id": 2,
+      "amount": 30000.00,
+      "currency": "RWF",
+      "transaction_date": "2026-09-10 15:22:25",
+      "balance_after": 87450.00,
+      "status": "completed"
+    },
+    {
+      "transaction_id": 2,
+      "transaction_reference": "TXN-2026-00002",
+      "sender_id": 2,
+      "receiver_id": 3,
+      "amount": 15000.00,
+      "currency": "RWF",
+      "transaction_date": "2026-09-11",
+      "balance_after": 42000.00,
+      "status": "pending"
+    },
+    {
+      "transaction_id": 3,
+      "transaction_reference": "TXN-2026-00003",
+      "sender_id": 3,
+      "receiver_id": 4,
+      "amount": 5000.00,
+      "currency": "RWF",
+      "transaction_date": "2026-09-11",
+      "balance_after": 12000.00,
+      "status": "completed"
+    },
+    {
+      "transaction_id": 4,
+      "transaction_reference": "TXN-2026-00004",
+      "sender_id": 4,
+      "receiver_id": 1,
+      "amount": 8000.00,
+      "currency": "RWF",
+      "transaction_date": "2026-09-12",
+      "balance_after": 95450.00,
+      "status": "failed"
+    },
+    {
+      "transaction_id": 5,
+      "transaction_reference": "TXN-2026-00005",
+      "sender_id": 5,
+      "receiver_id": 2,
+      "amount": 20000.00,
+      "currency": "RWF",
+      "transaction_date": "2026-09-12",
+      "balance_after": 62000.00,
+      "status": "completed"
+    }
+  ]
+}

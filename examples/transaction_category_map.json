@@ -1,0 +1,17 @@
+{
+  "entity": "Transaction_Category_Map",
+  "source_table": "transaction_category_map",
+  "record_count": 6,
+  "records": [
+    {
+      "map_id": 1,
+      "transaction_id": 1,
+      "category_id": 1
+    },
+    {
+      "map_id": 2,
+      "transaction_id": 1,
+      "category_id": 3
+    }
+  ]
+}

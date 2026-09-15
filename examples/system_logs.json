@@ -1,0 +1,15 @@
+{
+  "entity": "System_Logs",
+  "source_table": "system_logs",
+  "record_count": 6,
+  "records": [
+    {
+      "log_id": 1,
+      "transaction_id": 1,
+      "log_timestamp": "2026-09-10 15:22:25",
+      "process_stage": "xml_parsing",
+      "status": "success",
+      "message": "Transaction validated."
+    }
+  ]
+}
