@@ -5,8 +5,8 @@
 
 | Column | Data Type | Constraints | Description |
 |---|---|---|---|
-| user_id | INT | PK, AUTO_INCREMENT | |
-| phone_number | VARCHAR(15) | NOT NULL, UNIQUE, CHECK (format) | Unique ID for the user|
+| user_id | INT | PK, AUTO_INCREMENT |  Unique ID for the user|
+| phone_number | VARCHAR(15) | NOT NULL, UNIQUE, CHECK (format) | phone number for the user|
 | first_name | VARCHAR(50) | NOT NULL |User's first name |
 | last_name | VARCHAR(50) | NOT NULL | User's last name|
 | national_id | VARCHAR(20) | UNIQUE, nullable | Unique ID for the user|
