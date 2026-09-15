@@ -5,3 +5,5 @@ This table simply contains the foreign keys associated with a transaction and a 
 System_Logs is separated from Transactions because instead of storing the transaction, these tables store information about how a transaction is processed. For example, parsing, validation and loading steps in the transaction processing pipeline. Because a transaction can produce many lines in the System_Logs table as it is processed through the pipeline, this is a one to many relationship.
 
 This database design does not contain any redundancy. Data integrity is maintained via the use of foreign keys. The database is also structured in such a way that new transaction categories or additional steps in the transaction processing pipeline can be added without impacting any existing tables.
+
+Lastly, the Users table is linked to the Transactions table through two individual one-to-many relationships named Sends and Receives, respectively, instead of having a single one-to-many relationship, since a MoMo user could be both the sender and receiver at different times, and the ability to differentiate between these will allow the querying of individual transactions for a particular user.
