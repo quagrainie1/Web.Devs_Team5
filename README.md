@@ -25,5 +25,9 @@ Exposes aggregated data to a static frontend dashboard for visualization
 ### Scrum Board
 [MoMo Dashboard - Scrum Board](https://github.com/users/quagrainie1/projects/1/views/1)
 
-## Database Design
+## Database Design & Data modelling
 The Entity Relationship Diagram and design justification for the MoMo SMS database are available in `docs/erd/`.
+
+ERD (Task 1): docs/erd/ — Eric Quagrainie
+SQL implementation (Task 2): database_setup.sql — Sami Otuagomah
+JSON data modeling (Task 3): Json-model/ and docs/json_mapping.md — Michelle Odusanwo
