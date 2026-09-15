@@ -9,7 +9,7 @@
 | phone_number | VARCHAR(15) | NOT NULL, UNIQUE, CHECK (format) | phone number for the user|
 | first_name | VARCHAR(50) | NOT NULL |User's first name |
 | last_name | VARCHAR(50) | NOT NULL | User's last name|
-| national_id | VARCHAR(20) | UNIQUE, nullable | Unique ID for the user|
+| national_id | VARCHAR(20) | UNIQUE, nullable |nation ID for the user|
 | account_type | ENUM('personal','business','agent') | NOT NULL, DEFAULT 'personal' |Type of user's momo account |
 | registration_date | DATETIME | NOT NULL, DEFAULT CURRENT_TIMESTAMP | Date of registration of user's account|
 
