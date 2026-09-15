@@ -1,0 +1,7 @@
+We decided to model Transactions and Transaction_Categories as many to many because there is a possibility that one transaction can belong to multiple categories and also each category can be associated with many transactions. In order to support this relationship we created a junction table called Transaction_Category_Map. 
+
+This table simply contains the foreign keys associated with a transaction and a transaction category. This is the typical way many to many relationships are implemented in a relational database.
+
+System_Logs is separated from Transactions because instead of storing the transaction, these tables store information about how a transaction is processed. For example, parsing, validation and loading steps in the transaction processing pipeline. Because a transaction can produce many lines in the System_Logs table as it is processed through the pipeline, this is a one to many relationship.
+
+This database design does not contain any redundancy. Data integrity is maintained via the use of foreign keys. The database is also structured in such a way that new transaction categories or additional steps in the transaction processing pipeline can be added without impacting any existing tables.
