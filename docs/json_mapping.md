@@ -1,4 +1,5 @@
 JSON Mapping
+
 This document aims to show how the tables in the database (database-setup.sql) are converted to the JSON files in the Json-model/ directory. For each column in the database I detail the field in the JSON and the type it converts to.
 There are two types of JSON in the project:
 One JSON file per table (user.json, transaction.json, transaction_category.json, transaction_category_map.json, system_logs.json) - these simply display all the rows in the table, i.e. a JSON representation of that table.
