@@ -1,4 +1,4 @@
-## DEsign Rationale
+## Design Rationale
 
 The design of this database schema is to store MoMo transactions accurately to support flexible categorization and a clear processing of te audit. Here, the user table distingush between the personal, business, and agents account through the account_type function and it leaves the national_id nullable because every account type is tied to individual ID.
 
