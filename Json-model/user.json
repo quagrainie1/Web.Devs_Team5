@@ -1,16 +1,15 @@
-{
+{ 
   "entity": "User",
-  "source_table": "user",
-  "record_count": 5,
+  "source_table": "Users",
+  "record_count": 7,
   "records": [
-    {
-      "user_id": 1,
-      "first_name": "Michelle",
-      "last_name": "Odusanwo",
-      "national_id": "1234509876",
-      "phone_number": "0795604022",
-      "account_type": "personal",
-      "registration_date": "2026-09-10"
-    }
+    { "user_id": 1, "first_name": "Alice", "last_name": "Chukwe", "national_id": "1198012345678901", "phone_number": "250788123456", "account_type": "personal", "registration_date": "2024-01-15 09:00:00" },
+    { "user_id": 2, "first_name": "Eric", "last_name": "Habimana", "national_id": "1198023456789012", "phone_number": "250788234567", "account_type": "personal", "registration_date": "2024-01-20 10:30:00" },
+    { "user_id": 3, "first_name": "Sami", "last_name": "Otuagomah", "national_id": "1198034567890123", "phone_number": "250788345678", "account_type": "personal", "registration_date": "2024-02-01 08:15:00" },
+    { "user_id": 4, "first_name": "Michelle", "last_name": "Odusanwo", "national_id": "1198045678901234", "phone_number": "250788456789", "account_type": "personal", "registration_date": "2024-02-05 14:45:00" },
+    { "user_id": 5, "first_name": "Quick Mart Ltd", "last_name": "Agent", "national_id": null, "phone_number": "250788567890", "account_type": "business", "registration_date": "2024-01-10 07:00:00" },
+    { "user_id": 6, "first_name": "MoMo", "last_name": "Agent01", "national_id": null, "phone_number": "250788678901", "account_type": "agent", "registration_date": "2024-01-05 06:30:00" },
+    { "user_id": 7, "first_name": "Grace", "last_name": "Mukamana", "national_id": "1198056789012345", "phone_number": "250788789012", "account_type": "personal", "registration_date": "2024-03-01 11:00:00" 
+  }
   ]
 }

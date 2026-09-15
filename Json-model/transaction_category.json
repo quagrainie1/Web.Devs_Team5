@@ -1,13 +1,13 @@
 {
   "entity": "Transaction_Category",
-  "source_table": "transaction_category",
-  "record_count": 5,
+  "source_table": "Transaction_Categories",
+  "record_count": 6,
   "records": [
-    {
-      "category_id": 1,
-      "category_name": "Incoming Money",
-      "category_type": "credit",
-      "description": "Money recieved by a user from another user."
-    }
+    { "category_id": 1, "category_name": "Deposit", "category_type": "credit", "description": "Cash deposited into a MoMo account via an agent" },
+    { "category_id": 2, "category_name": "Withdrawal", "category_type": "debit", "description": "Cash withdrawn from a MoMo account via an agent" },
+    { "category_id": 3, "category_name": "Peer Transfer", "category_type": "transfer", "description": "Funds sent directly from one user to another" },
+    { "category_id": 4, "category_name": "Merchant Payment", "category_type": "debit", "description": "Payment made to a registered merchant/business" },
+    { "category_id": 5, "category_name": "Airtime Purchase", "category_type": "debit", "description": "Airtime or data bundle purchased using MoMo balance" },
+    { "category_id": 6, "category_name": "Transaction Fee", "category_type": "fee", "description": "Fee charged by the provider for a transaction" }
   ]
 }

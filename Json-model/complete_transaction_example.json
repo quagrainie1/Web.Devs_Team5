@@ -1,34 +1,31 @@
 {
-  "transaction_id": 1,
-  "transaction_reference": "TXN-2026-00001",
-  "amount": 30000.00,
+  "transaction_id": 2,
+  "transaction_reference": "TXN0002",
+  "amount": 15000.00,
   "currency": "RWF",
-  "transaction_date": "2026-09-10",
-  "balance_after": 87450.00,
+  "transaction_date": "2024-03-02 10:15:00",
+  "balance_after": 35000.00,
   "status": "completed",
   "sender": {
     "user_id": 1,
-    "first_name": "Michelle",
-    "last_name": "Odusanwo",
-    "phone_number": "0795604022",
+    "first_name": "Alice",
+    "last_name": "Chukwe",
+    "phone_number": "250788123456",
     "account_type": "personal"
   },
   "receiver": {
+    "user_id": 2,
+    "first_name": "Eric",
+    "last_name": "Habimana",
+    "phone_number": "250788234567",
+    "account_type": "personal"
   },
   "categories": [
-    {
-      "category_id": 1,
-      "category_name": "Incoming Money",
-      "category_type": "credit"
-    }
+    { "category_id": 3, "category_name": "Peer Transfer", "category_type": "transfer" }
   ],
   "processing_logs": [
-    {
-      "log_id": 1,
-      "process_stage": "xml_parsing",
-      "status": "success",
-      "log_timestamp": "2026-09-10 15:22:25",
-      "message": "SMS record extracted from XML and fields mapped successfully."
-    }
+    { "log_id": 4, "process_stage": "parsed", "status": "success", "log_timestamp": "2024-03-02 10:15:05", "message": "XML record parsed successfully" },
+    { "log_id": 5, "process_stage": "categorized", "status": "success", "log_timestamp": "2024-03-02 10:15:06", "message": "Matched keyword \"sent to\"" },
+    { "log_id": 6, "process_stage": "loaded", "status": "success", "log_timestamp": "2024-03-02 10:15:07", "message": "Inserted into Transactions table" }
   ]
 }

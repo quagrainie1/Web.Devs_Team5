@@ -1,17 +1,16 @@
 {
   "entity": "Transaction_Category_Map",
-  "source_table": "transaction_category_map",
-  "record_count": 6,
+  "source_table": "Transaction_Category_Map",
+  "record_count": 9,
   "records": [
-    {
-      "map_id": 1,
-      "transaction_id": 1,
-      "category_id": 1
-    },
-    {
-      "map_id": 2,
-      "transaction_id": 1,
-      "category_id": 3
-    }
+    { "map_id": 1, "transaction_id": 1, "category_id": 1 },
+    { "map_id": 2, "transaction_id": 2, "category_id": 3 },
+    { "map_id": 3, "transaction_id": 3, "category_id": 3 },
+    { "map_id": 4, "transaction_id": 4, "category_id": 4 },
+    { "map_id": 5, "transaction_id": 5, "category_id": 5 },
+    { "map_id": 6, "transaction_id": 6, "category_id": 4 },
+    { "map_id": 7, "transaction_id": 6, "category_id": 6 },
+    { "map_id": 8, "transaction_id": 7, "category_id": 3 },
+    { "map_id": 9, "transaction_id": 8, "category_id": 3 }
   ]
 }

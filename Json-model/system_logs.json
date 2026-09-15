@@ -1,15 +1,18 @@
 {
   "entity": "System_Logs",
-  "source_table": "system_logs",
-  "record_count": 6,
+  "source_table": "System_Logs",
+  "record_count": 10,
   "records": [
-    {
-      "log_id": 1,
-      "transaction_id": 1,
-      "log_timestamp": "2026-09-10 15:22:25",
-      "process_stage": "xml_parsing",
-      "status": "success",
-      "message": "Transaction validated."
-    }
+    { "log_id": 1, "transaction_id": 1, "log_timestamp": "2024-03-01 09:05:05", "process_stage": "parsed", "status": "success", "message": "XML record parsed successfully" },
+    { "log_id": 2, "transaction_id": 1, "log_timestamp": "2024-03-01 09:05:06", "process_stage": "categorized", "status": "success", "message": "Matched keyword \"deposit\"" },
+    { "log_id": 3, "transaction_id": 1, "log_timestamp": "2024-03-01 09:05:07", "process_stage": "loaded", "status": "success", "message": "Inserted into Transactions table" },
+    { "log_id": 4, "transaction_id": 2, "log_timestamp": "2024-03-02 10:15:05", "process_stage": "parsed", "status": "success", "message": "XML record parsed successfully" },
+    { "log_id": 5, "transaction_id": 2, "log_timestamp": "2024-03-02 10:15:06", "process_stage": "categorized", "status": "success", "message": "Matched keyword \"sent to\"" },
+    { "log_id": 6, "transaction_id": 2, "log_timestamp": "2024-03-02 10:15:07", "process_stage": "loaded", "status": "success", "message": "Inserted into Transactions table" },
+    { "log_id": 7, "transaction_id": 7, "log_timestamp": "2024-03-06 13:20:10", "process_stage": "parsed", "status": "warning", "message": "Ambiguous date format, used fallback parser" },
+    { "log_id": 8, "transaction_id": 7, "log_timestamp": "2024-03-06 13:20:12", "process_stage": "loaded", "status": "success", "message": "Inserted into Transactions table with status pending" },
+    { "log_id": 9, "transaction_id": 8, "log_timestamp": "2024-03-06 13:25:10", "process_stage": "parsed", "status": "success", "message": "XML record parsed successfully" },
+    { "log_id": 10, "transaction_id": 8, "log_timestamp": "2024-03-06 13:25:15", "process_stage": "loaded", "status": "error", "message": "Insufficient balance flag detected, marked as failed" }
   ]
 }
+
